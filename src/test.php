@@ -2,7 +2,7 @@
 <?php
   include "SDatabase.php";
 
-  $helper = new SQLHelper("localhost", "root","","database_name");
+  $helper = new SQLHelper("localhost", "database_username","database_password","database_name");
 
   echo $helper->exportToSDatabaseFormatString();
 
